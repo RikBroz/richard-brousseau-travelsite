@@ -1,3 +1,57 @@
 .destinations {
 
 }
+
+.destination {
+
+    background-image: url("../assets/images/hawaii.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 705px;
+    max-height: 705px;
+    padding-top: 63px;
+
+    /*
+    background-position: 0 -660px;
+    background-repeat: no-repeat;
+    min-height: 655px;
+    width: 1280px;
+    */
+}
+
+.destination__name {
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 80px;
+
+    position: relative;
+    /* position: fixed; */
+
+    left: 5%;
+    margin-top: 20px;
+    /* width: 50%; */
+    width: 75%;
+
+    /* padding: 30px 30px 0px; */
+
+}
+
+.destination__cards {
+
+}
+
+.destination__card {
+
+}
+
+.destination__list {
+
+}
+
+.destination__day {
+
+}
+
+.destination__activity {
+
+}
