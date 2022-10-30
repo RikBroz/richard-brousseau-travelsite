@@ -1,66 +1,42 @@
-.main {
-    
-}
-
-
 /* hero section */
-/* hero */
 .hero {
-    /* Use this */
-    /* background-color: #FEFAF5; */
-
-    background-color: #FFF0ED;
+    background-color: #FEFAF5;
     text-align: left;
     display: flex;
     flex-direction: row;
-
-    /* padding: 20px; */
-    /* padding: 50px 20px; */
-
-    /* padding-top: 30px; */
-
-    padding: 63px 20px 50px;
+    
     /* padding-top: 63px;
+    padding-right: 20px;
     padding-bottom: 50px;
-    padding-left: 20px;
-    padding-right: 20px; */
-   
+    padding-left: 20px; */
+    padding: 63px 20px 50px;
+
 
     align-items: center;
     flex-wrap: wrap;
-    
-    /* justify-content: space-between; */
-    /* justify-content: space-evenly; */
     justify-content: space-around;
-
 }
 .hero__section {
     width: 45%;
 }
-.hero__title {
-    color: #335576;
-    /* width: 60%; */
-    
-    padding-bottom: 1.5rem;
-    /* margin-bottom: 1.5rem; */
 
+.hero__title {
     font-size: 40px;
 }
-.hero__text {
+.hero__title, .hero__text {
     color: #335576;
-
-    /* width: 65%; */
-
     padding-bottom: 1.5rem;
-    font-size: 15px;
-    /* margin-bottom: 1.5rem; */
 }
+.hero__text {
+    font-size: 15px;
+}
+
 .hero__button {
     background-color: #DB7A4E;
     border-radius: 40px;
     
-    /* padding: 10px 20px; */
     padding: 5px 30px;
+
 
     color: #FEFAF5;
     border: 2px solid #DB7A4E;
@@ -72,88 +48,63 @@
 
 }
 
-
 /* recommendations section */
-
 .recommendations {
-    background-color: aquamarine;
-    /* Use this */
-    /* background-color: #FFFFFF;
-
-    background-color: #FEFAF5; */
-    
+    background-color: #FFFFFF;
 
     padding-bottom: 80px;
-}
 
+}
 .recommendations__header {
     text-align: left;
     color: #335576;
 
-    padding: 30px 30px 0px;
     /* padding-top: 30px;
     padding-right: 30px;
     padding-bottom: 0px;
     padding-left: 30px; */
+    padding: 30px 30px 0px;
+   
 }
-
 .recommendations__cards {
     display: flex;
-    
-    /* justify-content: space-between; */
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin: auto;
 
-    /* max-width: 1150px; */
-    /* max-width: 1050px; */
     max-width: 900px;
 
-    margin: auto;
 }
-
 .recommendations__card-wrapper {
     margin-top: 20px;
-    
-    /* box-shadow: 0 5px 9px 2px rgb(0 0 0 / 25%); */
-    
-    /* box-shadow: 0 4px 4px rgb(0 0 0 / 20%); */
     box-shadow: 0 4px 4px rgb(0 0 0 / .2);
-    
     border-radius: 5px;
-    
 }
-
 .recommendations__card {
-    /* width: 300px; */
     width: 250px;
     height: 400px;
     padding: 25px;
 
+
     background-size: cover;
     background-position: center;
-
-
     border-radius: 5px;
     border: 1px solid rgb(0 0 0 / .2);
 }
-
 .recommendations__card-hawaii {
     background-image: url("../assets/images/hawaii.jpg");
 }
-
 .recommendations__card-iceland {
     background-image: url("../assets/images/iceland.jpg");
 }
-
 .recommendations__card-greece {
     background-image: url("../assets/images/greece.jpg");
 }
-
 .recommendations__title {
     text-align: right;
     color: #FFFFFF;
     position: relative;
-    /* z-index: 1; */
+    
     top: 340px;
     font-size: 20px;
     left: 10px;
