@@ -20,15 +20,15 @@
 }
 
 .destination--hawaii {
-    
+    background-image: url("../assets/images/hawaii.jpg");
 }
 
 .destination--iceland {
-
+    background-image: url("../assets/images/iceland.jpg");
 }
 
 .destination--greece {
-
+    background-image: url("../assets/images/greece.jpg");
 }
 
 .destination__name {
