@@ -19,6 +19,18 @@
     */
 }
 
+.destination--hawaii {
+    
+}
+
+.destination--iceland {
+
+}
+
+.destination--greece {
+
+}
+
 .destination__name {
     text-align: left;
     color: #FFFFFF;
@@ -30,28 +42,77 @@
     left: 5%;
     margin-top: 20px;
     /* width: 50%; */
-    width: 75%;
+    /* width: 75%; */
+    width: 60%;
 
     /* padding: 30px 30px 0px; */
 
 }
 
 .destination__cards {
-
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    max-width: 900px;
 }
 
 .destination__card {
+    width: 250px;
+    /* height: 400px; */
+    /* ???  USE THIS */
+    height: 350px;
+
+    text-align: center;
+    /* margin-top: 20px; */
+    /* ??? USE THIS */
+    margin-top: 50px;
+
+    background-color: yellowgreen;
+    /* background-color: #FFFFFF; */
+
+    border-radius: 5px;
+
+    /* position: relative; */
+
+    /* padding: 20px; */
+
+    /* Alternative [Newly added; USE] */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+}
+
+.destination__day {
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 4px solid black;
+    /* margin-top: 10px; */
+    /* margin-top: 10px 10px auto; */
+    margin: 10px;
 
 }
 
 .destination__list {
+    list-style-type: none;
 
-}
+    /* Causes problems when sizing web page */
+    /* padding: 20px; */
 
-.destination__day {
-
+    /* Alternative [Newly added; USE] */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
 }
 
 .destination__activity {
+    /* margin-top: 40px; */
+    background-color: #DB7A4E;
+    /* padding: 10px; */
 
+    left: 25px;
+    width: 93%;
+    margin-top: 20px;
+    padding: 12px;
 }
